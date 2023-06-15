@@ -1,0 +1,23 @@
+classes/HTTPRequestManager_UTL.cls:16:    public static HTTPWebServiceResponse_UTL executeHttpRequest(String body, String method, Integer timeout, String endPoint, String token, String logClassName, String LogMethodName) {
+classes/HTTPRequestManager_UTL.cls:20:        HttpRequest req = new HttpRequest();
+classes/Opportunity_SVE.cls:389:        HttpRequest httpRequest = new HttpRequest();
+classes/MDPRO_ChangeOwner_CTL.cls:210:            HttpRequest httpRequest = new HttpRequest();
+classes/MDPRO_VlocityCache_CTL.cls:38:        HttpRequest httpRequest = new HttpRequest();
+classes/AffectTask_QUE.cls:46:        HttpRequest httpRequest = new HttpRequest();
+classes/SearchCustomerAreaIdentifier_SVC.cls:19:        HttpRequest  req = new HttpRequest();
+classes/OAuthProvider.cls:204:		final HttpRequest oHttpRequest = new HttpRequest();
+classes/OAuthProvider.cls:215:		oHttpRequest.setEndpoint(oEndpoint.getUrl());
+classes/OAuthProvider.cls:216:		oHttpRequest.setHeader('Content-Type', sEncoding);
+classes/OAuthProvider.cls:225:				oHttpRequest.setHeader(sKey, (String) oHeaders.get(sKey));
+classes/OAuthProvider.cls:228:		oHttpRequest.setMethod('POST');
+classes/OAuthProvider.cls:230:		oHttpRequest.setBody(sEncodedParams);
+classes/OAuthProvider.cls:233:			oHttpRequest.setClientCertificateName(sCertificate);
+classes/OAuthProvider.cls:236:		System.debug('###oHttpRequest:' + oHttpRequest);
+classes/OAuthProvider.cls:237:		final HTTPResponse oHTTPResponse = new Http().send(oHttpRequest);
+classes/NormAdr_RNVPAddress_OUT.cls:32:                HTTPWebServiceResponse_UTL resultat = HTTPRequestManager_UTL.executeHttpRequest(accIdRequestMap.get(accId),'POST', 120000,url2Call,token,'WebService : NormAdrRNVP - NormAdr_RNVPAddress_OUT','setAdressRNVP');
+classes/TransfererGestion_SVC.cls:12:        HttpRequest  req = new HttpRequest();
+classes/HTTPWebServiceResponse_UTL.cls:14:    public transient HttpRequest request;
+classes/Flow_ApexActions.cls:123:            HttpRequest httpRequest = new HttpRequest();
+classes/CopadoCCMutilities.cls:39:        HttpRequest req = new HttpRequest();
+classes/Repere_Search_PP_SVC.cls:15:        HTTPWebServiceResponse_UTL resultat = HTTPRequestManager_UTL.executeHttpRequest(JSON.serializePretty(repereWSI, true),'POST', 120000,url2Call,token,'WebService : REPEREsearchPP - Repere_SearchPP_WSO','REPEREsearchPP');
+classes/CreateEventEditPersonInformation_SVC.cls:14:        HttpRequest req = new HttpRequest();

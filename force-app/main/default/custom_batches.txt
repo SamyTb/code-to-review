@@ -1,0 +1,77 @@
+classes/Fix_AccountTeamMember_BAT.cls:8:public without sharing class Fix_AccountTeamMember_BAT implements Database.Batchable<Sobject>, xRMObject{
+classes/FreeZoneSectorisation_BAT.cls:6:global class FreeZoneSectorisation_BAT implements Database.Batchable<sObject> {
+classes/UnflagAccountObsequeRentier_BAT.cls:9:public with sharing class UnflagAccountObsequeRentier_BAT implements Database.Batchable<SObject>{
+classes/SectorisationRulesLeavingAdvisor_Acc_BAT.cls:8:public with sharing class SectorisationRulesLeavingAdvisor_Acc_BAT implements Database.Batchable<sObject>, Database.Stateful, xRMObject {
+classes/AccountRemoveReferee_BAT.cls:6:global class AccountRemoveReferee_BAT implements Database.Batchable<sObject> {
+classes/CalculateMktgPressureIndicator_BAT.cls:14:global class CalculateMktgPressureIndicator_BAT implements Database.Batchable<sObject> {
+classes/NoteMigration_BAT.cls:5:global class NoteMigration_BAT implements Database.Batchable<sObject>, Database.Stateful{
+classes/FillLastSolicitationDate_BAT.cls:9:global with sharing class FillLastSolicitationDate_BAT implements Database.Batchable<sObject>, Database.Stateful, XRMObject {
+classes/CloseOcEndDateReached_BAT.cls:6:public class CloseOcEndDateReached_BAT implements Database.Batchable<sObject> {
+classes/FlagAccountRente_BAT.cls:9:public with sharing class FlagAccountRente_BAT implements Database.Batchable<SObject>{
+classes/MDPRO_RoleAssignment_BATCH.cls:6:global class MDPRO_RoleAssignment_BATCH implements Database.Batchable<sObject>, Database.Stateful{
+classes/FillVlocityParty_BAT.cls:5:public without sharing class FillVlocityParty_BAT implements Database.Batchable<SObject>{
+classes/UnborrowRules_BAT.cls:6:global class UnborrowRules_BAT implements Database.Batchable<sObject> {
+classes/ReAssignDirectorsAccount_BAT.cls:7:public class ReAssignDirectorsAccount_BAT implements Database.Batchable<sObject>{
+classes/EditicDataRecovery_BAT.cls:6:global class EditicDataRecovery_BAT implements Database.Batchable<sObject> {
+classes/SectorisationRulesLeavingAdvisor_Opp_BAT.cls:7:global with sharing class SectorisationRulesLeavingAdvisor_Opp_BAT implements Database.Batchable<sObject>, Database.Stateful, xRMObject {
+classes/ContractTrigger_BAT.cls:5:global class ContractTrigger_BAT implements Database.Batchable<sObject> {
+classes/ScriptStgOrgLienComUoc.cls:6:public class ScriptStgOrgLienComUoc implements Database.Batchable<sObject> {
+classes/ReallignAccountOwner_BAT.cls:7:public without sharing class ReallignAccountOwner_BAT implements Database.Batchable<sObject>{
+classes/ReinitialisationConsents_BAT.cls:11:public with sharing class ReinitialisationConsents_BAT implements Database.Batchable<Sobject> 
+classes/PostMigratedPartyRelationshipFix_BAT.cls:6:global class PostMigratedPartyRelationshipFix_BAT implements Database.Batchable<sObject> {
+classes/CreateMassTask_BAT.cls:5:global class CreateMassTask_BAT implements Database.Batchable<sObject>, Database.Stateful{
+classes/DeleteAccTeamMemberForAccompanist_BAT.cls:7:public class DeleteAccTeamMemberForAccompanist_BAT implements Database.Batchable<sObject>{
+classes/FlagAccountObseque_BAT.cls:9:public with sharing class FlagAccountObseque_BAT implements Database.Batchable<SObject>{
+classes/SETMigOpportunity_BAT.cls:6:global with sharing class SETMigOpportunity_BAT implements Database.Batchable<sObject> {
+classes/DeleteLeadsNotConverted_BAT.cls:6:global class DeleteLeadsNotConverted_BAT implements Database.Batchable<sObject> {
+classes/OrphanGPSCaseHandle_BAT.cls:6:global class OrphanGPSCaseHandle_BAT implements Database.Batchable<sObject> {
+classes/BatchDeactivateFreezeUser_BAT.cls:8:global class BatchDeactivateFreezeUser_BAT implements Database.Batchable<sObject>,  Database.Stateful {
+classes/VlocityDiagnosticWizardTestBatchClass.cls:1:public with sharing class VlocityDiagnosticWizardTestBatchClass implements Database.Batchable<sObject>, Database.Stateful
+classes/CaseCloture_BAT.cls:7:public without sharing class CaseCloture_BAT implements Database.Batchable<sObject>, Database.Stateful{
+classes/CaseClotureIntermediate_BAT.cls:8:public without sharing class CaseClotureIntermediate_BAT implements Database.Batchable<sObject>, Database.Stateful{
+classes/CreateCampaignShare_MC_BAT.cls:6:global class CreateCampaignShare_MC_BAT implements Database.Batchable<sObject>, Database.Stateful{
+classes/CreateAccTeamMemberForAccompanist_BAT.cls:7:public class CreateAccTeamMemberForAccompanist_BAT implements Database.Batchable<sObject> {
+classes/CreateAccountTeamMemberPostMigration_BAT.cls:7:global with sharing class CreateAccountTeamMemberPostMigration_BAT implements Database.Batchable<sObject> {
+classes/FixMigratedData_BAT.cls:11:global with sharing class FixMigratedData_BAT implements Database.Batchable<sObject>, Database.Stateful, xRMObject {
+classes/ScriptStgOrgCom.cls:6:global class ScriptStgOrgCom implements Database.Batchable<sObject>, Database.Stateful {
+classes/BatchNotifyMissingCodeVendeur_BAT.cls:8:global class BatchNotifyMissingCodeVendeur_BAT implements Database.Batchable<sObject>,  Database.Stateful {
+classes/MDPRO_AccountTeamForInspections_BAT.cls:7:global class MDPRO_AccountTeamForInspections_BAT implements Database.Batchable<sObject> {
+classes/UpdateCampaignMember_BAT.cls:6:global class UpdateCampaignMember_BAT implements Database.Batchable<sObject>, Database.Stateful{
+classes/SampleClass_BAT.cls:8:global with sharing class SampleClass_BAT implements Database.Batchable<sObject>, Schedulable, xRMObject {
+classes/MigrateAttachmentToFile_BAT.cls:6:global class MigrateAttachmentToFile_BAT implements Database.Batchable<sObject>, Database.Stateful{
+classes/ReAssignRulesLeavingAdvisor_Lead_BAT.cls:6:public with sharing class ReAssignRulesLeavingAdvisor_Lead_BAT implements Database.Batchable<sObject>, Database.Stateful, xRMObject {
+classes/FixDuplicatePartyrelationship_BAT.cls:1:global class FixDuplicatePartyrelationship_BAT implements Database.Batchable<SObject>{
+classes/SetAccountCoutryOfBirth_BAT.cls:5:global with sharing class SetAccountCoutryOfBirth_BAT implements Database.Batchable<sObject> {
+classes/TaskReaffectation_BAT.cls:10:global class TaskReaffectation_BAT implements Database.Batchable<sObject>, Database.Stateful{
+classes/DisableUserOld_BAT.cls:6:global class DisableUserOld_BAT implements Database.Batchable<sObject>{
+classes/MeetingDateUpdate_BAT.cls:11:public class MeetingDateUpdate_BAT implements Database.Batchable<sObject>, Database.Stateful{
+classes/DeleteLogAfterNDay_BAT.cls:6:public class DeleteLogAfterNDay_BAT implements Database.Batchable<sObject>, Schedulable {
+classes/BatchDispatcher_BAT.cls:6:global class BatchDispatcher_BAT implements Database.Batchable<sObject> {
+classes/FixDataBasedOnCampaignMember_BAT.cls:10:public with sharing class FixDataBasedOnCampaignMember_BAT implements Database.Batchable<sObject>, Database.Stateful, xRMObject{
+classes/AccountAddressRealignement_BAT.cls:6:global class AccountAddressRealignement_BAT implements Database.Batchable<sObject>{
+classes/OneShotAccountProUnion_BAT.cls:6:global class OneShotAccountProUnion_BAT implements Database.Batchable<sObject>{
+classes/AccountCommuneNaissance_BAT.cls:6:global class AccountCommuneNaissance_BAT implements Database.Batchable<sObject>{
+classes/UserRealignmentPermsetAndGroup_BAT.cls:6:public class UserRealignmentPermsetAndGroup_BAT implements Database.Batchable<sObject>, Database.Stateful{
+classes/ContractManagementAgent_BAT.cls:1:global class ContractManagementAgent_BAT implements Database.Batchable<sObject>, xRMObject {
+classes/UpdateUserWhenEndOfSupport_BAT.cls:7:public class UpdateUserWhenEndOfSupport_BAT implements Database.Batchable<sObject>, Database.Stateful {
+classes/CalculateMktgPressureIndicatorPM_BAT.cls:6:public class CalculateMktgPressureIndicatorPM_BAT implements Database.Batchable<sObject>, Database.Stateful {
+classes/OneShotAccountTeamMember_BAT.cls:6:global class OneShotAccountTeamMember_BAT implements Database.Batchable<sObject>{
+classes/CampaignClosure_BAT.cls:9:global class CampaignClosure_BAT implements Database.Batchable<sObject>, Database.Stateful{
+classes/UserRealignmentVlocityLicense_BAT.cls:6:global class UserRealignmentVlocityLicense_BAT implements Database.Batchable<sObject>{
+classes/ReallignAccountTeamMember_OneShot_BAT.cls:6:global with sharing class ReallignAccountTeamMember_OneShot_BAT implements Database.Batchable<sObject>, Database.Stateful, xRMObject {
+classes/AccountSetInactive_BAT.cls:8:global class AccountSetInactive_BAT implements Database.Batchable<sObject> {
+classes/PostMigrationFixOpportunity_BAT.cls:6:global class PostMigrationFixOpportunity_BAT implements Database.Batchable<sObject> {
+classes/BorrowProcessForMigration_BAT.cls:6:global class BorrowProcessForMigration_BAT implements Database.Batchable<sObject> {
+classes/flagConjointEnfants_BAT.cls:7:global with sharing class flagConjointEnfants_BAT implements Database.Batchable<sObject>, Database.Stateful, xRMObject {
+classes/AccountCSPList_BAT.cls:6:global class AccountCSPList_BAT implements Database.Batchable<sObject>{
+classes/SectorisationRulesLeavingAdvisor_Tsk_BAT.cls:7:global with sharing class SectorisationRulesLeavingAdvisor_Tsk_BAT implements Database.Batchable<sObject>, Database.Stateful, xRMObject {
+classes/DeleteCampaignMember_BAT.cls:6:global class DeleteCampaignMember_BAT implements Database.Batchable<sObject>, Database.Stateful {
+classes/FillVlocityPartyForContactMDE_BAT.cls:6:global class FillVlocityPartyForContactMDE_BAT implements Database.Batchable<SObject>{
+classes/CampaignSharing_BAT.cls:7:global without sharing class CampaignSharing_BAT implements Database.Batchable<sObject> {
+classes/MaterialSwitch_BAT.cls:6:global class MaterialSwitch_BAT implements Database.Batchable<sObject> {
+classes/SectorisationRulesLeavingAdvisor_Evt_BAT.cls:7:global with sharing class SectorisationRulesLeavingAdvisor_Evt_BAT implements Database.Batchable<sObject>, Database.Stateful, xRMObject {
+classes/RepairVlocityParty_BAT.cls:4:global class RepairVlocityParty_BAT implements Database.Batchable<SObject> {
+classes/AccountActivity_BAT.cls:6:global class AccountActivity_BAT implements Database.Batchable<sObject> {
+classes/TaskClosure_BAT.cls:13:global class TaskClosure_BAT implements Database.Batchable<sObject>, Database.Stateful{
+classes/AccountNonProspectionGenerale_BAT.cls:6:global class AccountNonProspectionGenerale_BAT implements Database.Batchable<sObject>{
+classes/ExecuteUserStoryUpsert.cls:9:global class ExecuteUserStoryUpsert implements Database.Batchable<Object>,Database.AllowsCallouts{
