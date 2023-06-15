@@ -1,4 +1,3 @@
-Ajout Mamadou de ligne 720 à 782
 /***
 * @author Matthieu CASASSUS
 * @date 15/11/2019

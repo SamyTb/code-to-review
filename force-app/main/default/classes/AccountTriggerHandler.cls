@@ -1,6 +1,3 @@
-Ajout Mamadou de ligne 764 à 821
-en after insert  :  de 472 à 476 , de 491 à 519  et de 536 à 541
-en after update  : de 647 à 651 , de 669 à 694  de 736 à 742
 /***
 * @author Attali David
 * @date 21/11/2018
